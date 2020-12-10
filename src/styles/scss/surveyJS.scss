@@ -1,0 +1,58 @@
+@import "./bulmaSetup.scss";
+
+.sv_qstn {
+    @extend .mb-5;
+  }
+  
+  .sv_q_title {
+    @extend .label;
+    // @extend .is-5;
+  }
+  
+  .sv_complete_btn,
+  .sv_next_btn,
+  .sv_prev_btn {
+    @extend .button;
+    @extend .is-primary;
+    @extend .level-left;
+  }
+  
+  .sv_nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sv_q_text_root {
+    @extend .input;
+    max-width: 100%;
+  }
+  
+  .sv_q_description {
+    @extend .has-text-weight-light;
+    @extend .mb-4;
+    @extend .is-size-6;
+    @extend .has-text-grey-dark;
+  }
+  
+  .sv_q_erbox {
+    @extend .help;
+    @extend .is-danger;
+  }
+  
+  .sv_select_wrapper {
+    @extend .select;
+  }
+
+  $radius : 2px;
+
+  .sv-boolean__slider{
+    background-color: white;
+    border-radius: $radius !important;
+  }
+
+  .sv-boolean__switch{
+    // @extend .switch;
+    background-color: $aeco-green;
+    border-radius: $radius !important;
+  }
+  

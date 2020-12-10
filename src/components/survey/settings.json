@@ -1,0 +1,29 @@
+{
+  "logoWidth": 100,
+  "logoPosition": "top",
+  "pages": [
+   {
+    "name": "page1",
+    "elements": [
+      {
+        "type": "textwithbutton",
+        "name": "q12",
+        "placeHolder": "put some text here",
+        "buttonText": "Custom button text"
+    }, 
+    {
+      "type": "text",
+      "name" : "name"
+    }
+    ]
+   }
+  ],
+  "showCompletedPage": false,
+  "questionErrorLocation": "bottom",
+  "clearInvisibleValues": "none",
+  "checkErrorsMode": "onValueChanged",
+  "textUpdateMode": "onTyping",
+  "pagePrevText": "Vorige",
+  "pageNextText": "Volgende",
+  "completeText": "Optimaliseer mijn situatie"
+ }

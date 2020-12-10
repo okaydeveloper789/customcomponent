@@ -1,0 +1,17 @@
+@import "./bulmaSetup.scss";
+
+.button-homepage {
+    @extend .button;
+    @extend .is-primary;
+    @extend .level-left;
+    @extend .is-inline;
+    @extend .is-outlined;
+    @extend .mr-1;
+}
+
+.button-close-modal {
+    @extend .button;
+    @extend .is-primary;
+    @extend .level-left;
+    @extend .is-inline;
+}
